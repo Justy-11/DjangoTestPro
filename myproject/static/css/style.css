@@ -28,7 +28,8 @@ section {
     gap: 1rem;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-size: 2.5rem;
 }
 
@@ -52,6 +53,7 @@ a:hover {
 }
 
 .form-with-validation {
+    max-width: 600px;
     font-size: 1rem;
     padding: 1rem;
     display: flex;
@@ -93,6 +95,7 @@ a:hover {
 .errorlist li::marker {
     content: '🚨 ';
 }
+
 
 .logout {
     display: inline-block;
